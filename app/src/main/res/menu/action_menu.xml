@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/act_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/act_camera"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/act_call"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="@string/act_call"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/act_rotate"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/act_rotate"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/act_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/act_help"
+        app:showAsAction="never" />
+</menu>

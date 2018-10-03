@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Action Buttons</string>
+
+    <string name="act_camera">Camera</string>
+    <string name="act_call">Call</string>
+    <string name="act_rotate">Rotate</string>
+    <string name="act_help">Help</string>
+</resources>
